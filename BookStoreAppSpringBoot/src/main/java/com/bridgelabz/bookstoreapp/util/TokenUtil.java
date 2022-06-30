@@ -14,7 +14,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class TokenUtil {
-    public final String TOKEN_SECRET = "Prashanth";
+    public final String TOKEN_SECRET = "Sanjana";
 
     public String createToken(int id) {
         try {
